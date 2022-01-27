@@ -1,0 +1,146 @@
+.offer-title-animation {
+    animation: AniRotate 1s linear forwards;
+}
+.offer-h2-animation {
+    animation: AniOffer 1s linear forwards;
+}
+.offer-content-animation {
+    animation: AniOfferContent 1s linear forwards;
+}
+
+.AnimationChild1 {
+    animation: AniOfferChild 2s linear forwards;
+}
+.AnimationChild2 {
+    animation: AniOfferChild 3s linear forwards;
+}
+.AnimationChild3 {
+    animation: AniOfferChild 4s linear forwards;
+}
+
+.wrapper-offer {
+    margin: 70px;
+    // margin-top: 100px;
+    padding: 50px 70px;
+    background: #CFE1FF;
+    border-radius: 50px;
+    height: 85%;
+    .offer-top {
+        display: flex;
+        justify-content: space-between;
+        .offer-right {
+            width: 40%;
+        }
+        .offer-title {
+            color: rgb(29, 139, 29);
+            background-color: #E1F3EC;
+            border-radius: 5px;
+            padding: 5px 10px;
+            font-weight: 600;
+            display: inline-block;
+            opacity: 0;
+            // animation: AniRotate 2s linear forwards;
+        }
+        h2 {
+            color: #3A598C;
+            font-weight: 700;
+            padding: 10px 0 20px;
+            opacity: 0;
+            // animation: AniOffer 2s linear forwards;
+            span {
+                color: #6CA1F8;
+            }
+        }
+        .offer-content {
+            opacity: 0;
+            // animation: AniOfferContent 2s linear forwards;
+            i {
+                display: inline-block;
+                width: 15px;
+                height: 5px;
+                border-radius: 20px;
+                background-color: #3165D8;
+                margin-bottom: 3px;
+            }
+            font-weight: 500;
+        }
+    }
+    .offer-bottom {
+        display: flex;
+        width: 100%;
+        margin-left: -15px;
+        margin-right: -15px;
+        justify-content: space-between;
+        margin-top: 40px;
+        .offer-child {
+            opacity: 0;
+            background-color: #fff;
+            border-radius: 30px;
+            margin: 0 15px;
+            width: 100%;
+            padding: 30px;
+            overflow: hidden;
+
+            &.center {
+                margin-top: -30px;
+            }
+
+            .icon {
+                width: 80px;
+                height: 80px;
+                font-size: 30px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #e74c3c;
+                position: relative;
+                margin-bottom: 30px;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    border-radius: inherit;
+                    background-color: currentColor;
+                    opacity: 0.1;
+                }
+            }
+            .title {
+                color: #3A598C;
+                font-weight: 700;
+                font-size: 18px;
+            }
+            .content {
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+@keyframes AniRotate {
+    0% {transform: rotate(-90deg); opacity: 0;}
+    50% {transform: rotate(0deg); opacity: 0.5;}
+    75% {transform: rotate(-10deg); opacity: 0.8;}
+    100% {transform: rotate(0deg); opacity: 1;}
+}
+
+@keyframes AniOffer {
+    0% {transform: translateX(-300px); opacity: 0;}
+    30% {transform: translateX(-300px); opacity: 0;}
+    100% {transform: translateX(0px); opacity: 1;}
+}
+
+@keyframes AniOfferContent {
+    0% {opacity: 0;}
+    30% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes AniOfferChild {
+    0% {height: 0px; opacity: 0;}
+    50% {height: 0px; opacity: 0;}
+    100% {height: 100%; opacity: 1;}
+}

@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon-portfolio.ico">
+    <title>Nguyễn Hồng Quân</title>
+
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS BS4 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- main CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body id="style-2">
+    <header id="header">
+        <div class="wrapper-header wrapper-container">
+            <div class="header-left">
+                <a class="page-click" href="index.html">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header-right">
+                <ul class="navigation" id="mainNav">
+                    <li>
+                        <a class="page-click" href="#home" id="toTop1">Home</a>
+                        <div class="navigation-drop">
+                            <a href="">Humor + Information</a>
+                            <a href="">Research + Insight</a>
+                            <a href="">Offer Test</a>
+                        </div>
+                    </li>
+                    <li><a class="page-click" href="#offer">Offer</a>
+                        <div class="navigation-drop">
+                            <a href="">Humor + Information</a>
+                            <a href="">Research + Insight</a>
+                            <a href="">Research + Insight</a>
+                            <a href="">Offer Test</a>
+                        </div>
+                    </li>
+                    <li><a class="page-click" href="#variants">Variants</a></li>
+                    <li><a class="page-click" href="#articles">Articles</a></li>
+                    <li><a class="page-click" href="#goals">Goals</a></li>
+                    <li><a class="page-click" href="#more">More</a></li>
+                </ul>
+            </div>
+            <div class="header-right-1">
+                <button class="btn-header-right" id="header-btn">
+                    <div class="group-line">
+                        <div class="line-1"></div>
+                        <div class="line-2"></div>
+                        <div class="line-3"></div>
+                    </div>
+                </button>
+            </div>
+            <div class="dropdown-header">
+                <ul class="navigation-hidden" id="mainNav">
+                    <li><a class="page-click" href="#home" id="toTop1">Home</a></li>
+                    <li><a class="page-click" href="#offer">Offer</a></li>
+                    <li><a class="page-click" href="#variants">Variants</a></li>
+                    <li><a class="page-click" href="#articles">Articles</a></li>
+                    <li><a class="page-click" href="#goals">Goals</a></li>
+                    <li><a class="page-click" href="#more">More</a></li>
+                </ul>
+            </div>
+            <!-- <div class="dropdown">
+              <div class="dropdown-select">
+                <span class="dropdown-value"><i class="fa fa-cart-plus"></i></span>
+              </div>
+              <div class="dropdown-list">
+                <div class="dropdown-item">title</div>
+                <div class="dropdown-item">title</div>
+                <div class="dropdown-item">title</div>
+              </div>
+            </div> -->
+            <div class="wrapper-login">
+                <!-- <div class="header-shop">
+                    <button>
+                        <i class="fa fa-cart-plus"></i>
+                        <span>0</span>
+                    </button>
+                    <div class="header-shop-list">
+                        <table>
+                            <thead>
+                                <th>STT</th>
+                                <th>Name</th>
+                                <th>Day</th>
+                                <th>Price</th>
+                                <th></th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                <td>Hotel</td>
+                                <td>1</td>
+                                <td>$1650</td>
+                                <td>
+                                    <button>
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                    <button>
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                <td>Hotel</td>
+                                <td>1</td>
+                                <td>$1650</td>
+                                <td>
+                                    <button>
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                    <button>
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                <td>Hotel</td>
+                                <td>1</td>
+                                <td>$1650</td>
+                                <td>
+                                    <button>
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                    <button>
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div> -->
+                <div class="header-login">
+                    <a href="regist.html">
+                        Login
+                        <i class="fa fa-arrow-alt-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="fullPage">
+        <div id="home" class="section s1 overflow-hidden">
+            <div class="wrapper-carousel wrapper-container" >
+                <div class="carousel-left">
+                    <div class="wrapper-block">
+                        <div class="block"></div>
+                        <span class="carousel-find">Find home of your dreams</span>
+                    </div>
+                    <h2 class="AnimationCarouselTitle">Discover your <span class="AnimationCarouselTitleChild">perfect</span> home</h2>
+                    <p class="header-content AnimationCarouselTitleChild2">
+                        <i></i>
+                        When you're ready for a change, we're ready to help. Whether you're buying, selling or renting, we can help you move forward.
+                    </p>
+                    <div class="carousel-buy">
+                        <div class="carousel-buy-top">
+                            <button>Buy</button>
+                            <button class="active">Rent</button>
+                        </div>
+                        <div class="carousel-buy-bottom">
+                            <ul>
+                                <li>
+                                    <p class="carousel-list-title">City</p>
+                                    <p class="carousel-list-content">Smoky Mountains</p>
+                                </li>
+                                <li>
+                                    <p class="carousel-list-title">City</p>
+                                    <p class="carousel-list-content">Smoky Mountains</p>
+                                </li>
+                                <li>
+                                    <p class="carousel-list-title">City</p>
+                                    <p class="carousel-list-content">$2000-$5000</p>
+                                </li>
+                                <li>
+                                    <button>
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-right">
+                    <img src="./img/1.jpg" alt="">
+                </div>
+                
+            </div>
+        </div>
+        <div id="offer" class="section s2">
+            <div class="wrapper-offer wrapper-container">
+                <div class="offer-top">
+                    <div class="offer-left">
+                        <span class="offer-title" id="offer-title">
+                            Our Supply
+                        </span>
+                        <h2 class="offer-h2">What We <span>Offer</span></h2>
+                    </div>
+                    <div class="offer-right">
+                        <p class="offer-content">
+                            <i></i>
+                            When you're ready for a change, we're ready to help. Whether you're buying, selling or renting, we can help you move forward.
+                        </p>
+                    </div>
+                </div>
+                <div class="offer-bottom">
+                    <div class="offer-child one">
+                        <span class="icon">
+                            <i class="fa fa-journal-whills"></i>
+                        </span>
+                        <p class="title">
+                            We will help you buy or rent future home
+                        </p>
+                        <p class="content">
+                            When you're ready for a change, we're ready to help. Whether you're buying, selling or renting, we can help you move forward.
+                        </p>
+                        <div class="wrapper-offer-res">
+                            <p class="title">
+                                We will help you buy or rent future home
+                            </p>
+                            <p class="content">
+                                When you're ready for a change, we're ready to help. Whether you're buying, selling or renting, we can help you move forward.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="offer-child two center ">
+                        <span class="icon">
+                            <i class="fa fa-home"></i>
+                        </span>
+                        <p class="title">
+                            We find proper offer according request.
+                        </p>
+                        <p class="content">
+                            When you're ready for a change, we're ready to help. Whether you're buying, selling or renting, we can help you move forward, selling or renting, we can help you move forward.
+                        </p>
+                        <div class="wrapper-offer-res">
+                            <p class="title">
+                                We find proper offer according request.
+                            </p>
+                            <p class="content">
+                                When you're ready for a change, we're ready to help. Whether you're buying, selling or renting, we can help you move forward, selling or renting, we can help you move forward.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="offer-child three">
+                        <span class="icon">
+                            <i class="fa fa-globe-americas"></i>
+                        </span>
+                        <p class="title">
+                            We will take care of all paperwork
+                        </p>
+                        <p class="content">
+                            When you're ready for a change, we're ready to help. Whether you're buying, selling or renting.
+                        </p>
+                        <div class="wrapper-offer-res">
+                            <p class="title">
+                                We will help you buy or rent future home
+                            </p>
+                            <p class="content">
+                                When you're ready for a change, we're ready to help. Whether you're buying, selling or renting, we can help you move forward.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="variants" class="section s3 overflow-hidden">
+            <div class="wrapper-variant wrapper-container">
+                <div class="variant-top">
+                    <div class="variant-left">
+                        <div class="wrapper-block">
+                            <div class="block variant"></div>
+                            <span class="variant-title">
+                                Kind of homes we offer
+                            </span>
+                        </div>
+                       
+                        <h2 class="article-h2">Our Best <span>Variants</span></h2>
+                        <span class="variant-buy">
+                            <span>Buy</span>
+                            <span>Rent</span>
+                        </span>
+                    </div>
+                    <div class="variant-right">
+                        <p class="variant-content">
+                            <i></i>
+                            When you're ready for a change, we're ready to help. Whether you're buying, selling or renting, we can help you move forward.
+                        </p>
+                        <a class="variant-more" href="list-variant.html">
+                            <span>
+                                View all variants
+                                <span class="variant-icon">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="variant-bottom">
+                    <div class="variant-list">
+                        <div class="owl-carousel owl-theme">
+                            <div class="variant-item one">
+                                <div class="images">
+                                    <div class="wrapper-images">
+                                        <img src="./img/2.jpg" alt="">
+                                        <div class="top">
+                                            <span>Suitable for children</span>
+                                            <span>Pets friendly</span>
+                                        </div>
+                                        <div class="money">
+                                            $1650<span>/mon</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="title">
+                                        <span class="icon">
+                                            <i class="fa fa-map-marker-alt"></i>
+                                        </span>
+                                        <span class="address">
+                                            456A Grand St, Smoky Mountains, TN
+                                        </span>
+                                        <span class="view">
+                                            <span>
+                                                View home
+                                                <span class="view-icon">
+                                                    <i class="fa fa-angle-right"></i>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="detail">
+                                        <span>
+                                            <span class="icon">
+                                                <i class="fa fa-bed"></i>
+                                            </span>
+                                            <span class="room">2 bedroom</span>
+                                        </span>
+                                        <span>
+                                            <span class="icon">
+                                                <i class="fa fa-shower"></i>
+                                            </span>
+                                            <span class="room">2 baths</span>
+                                        </span>
+                                        <span>
+                                            <span class="icon">
+                                                <i class="fa fa-map"></i>
+                                            </span>
+                                            <span class="room">256 Sq.Ft.</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="variant-item two">
+                            <div class="images">
+                                <div class="wrapper-images">
+                                    <img src="./img/2.jpg" alt="">
+                                    <div class="top">
+                                        <span>Suitable for children</span>
+                                        <span>Pets friendly</span>
+                                    </div>
+                                    <div class="money">
+                                        $1650<span>/mon</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="title">
+                                    <span class="icon">
+                                        <i class="fa fa-map-marker-alt"></i>
+                                    </span>
+                                    <span class="address">
+                                        456A Grand St, Smoky Mountains, TN
+                                    </span>
+                                    <span class="view">
+                                        <span>
+                                            View home
+                                            <span class="view-icon">
+                                                <i class="fa fa-angle-right"></i>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="detail">
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-bed"></i>
+                                        </span>
+                                        <span class="room">2 bedroom</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-shower"></i>
+                                        </span>
+                                        <span class="room">2 baths</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-map"></i>
+                                        </span>
+                                        <span class="room">256 Sq.Ft.</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="variant-item three">
+                            <div class="images">
+                                <div class="wrapper-images">
+                                    <img src="./img/2.jpg" alt="">
+                                    <div class="top">
+                                        <span>Suitable for children</span>
+                                        <span>Pets friendly</span>
+                                    </div>
+                                    <div class="money">
+                                        $1650<span>/mon</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="title">
+                                    <span class="icon">
+                                        <i class="fa fa-map-marker-alt"></i>
+                                    </span>
+                                    <span class="address">
+                                        456A Grand St, Smoky Mountains, TN
+                                    </span>
+                                    <span class="view">
+                                        <span>
+                                            View home
+                                            <span class="view-icon">
+                                                <i class="fa fa-angle-right"></i>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="detail">
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-bed"></i>
+                                        </span>
+                                        <span class="room">2 bedroom</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-shower"></i>
+                                        </span>
+                                        <span class="room">2 baths</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-map"></i>
+                                        </span>
+                                        <span class="room">256 Sq.Ft.</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="articles" class="section">
+            <div class="wrapper-article wrapper-container">
+                <div class="article-top">
+                    <div class="article-left">
+                        <span class="article-title">
+                            News and useful information
+                        </span>
+                        <h2>Our Latest <span>Articles</span></h2>
+                    </div>
+                    <div class="article-right">
+                        <p class="article-content">
+                            <i></i>
+                            In our blog we publish useful information connected to real estate topic. We collect people's questions and answer them in articles.
+                        </p>
+                        <a class="article-more" href="articles.html">
+                            <span>
+                                Visit Blog
+                                <span class="article-icon">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="article-bottom">
+                    <div class="article-list">
+                        <div class="owl-articl owl-theme">
+                            
+                            <div class="article-item">
+                                <div class="article-images">
+                                    <img src="./img/3.jpg" alt="">
+                                </div>
+                                <div class="article-content">
+                                    <div class="article-element">
+                                        <span class="article-element-three">Real Estate</span>
+                                        <span class="article-element-one">Lux house</span>
+                                        <span class="article-element-two">Florida</span>
+                                    </div>
+                                    <p class="article-title">
+                                        Hot Markets Delivering Fast Gains
+                                    </p>
+                                    <p class="article-des">
+                                        Luxury real estate broker Senada Adzem received a phone call from her buyer just 10 days after closing on the $19 million mansion they had just purchasedin Delray Beach.
+                                    </p>
+                                    <span class="article-more">
+                                        <a href="articles.html">
+                                            Read article
+                                        </a>
+                                        <span class="variant-icon">
+                                            <i class="fa fa-angle-right"></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="goals" class="section">
+            <div class="wrapper-project wrapper-container">
+                <p class="icon">
+                    <span>Details</span>
+                </p>
+                <h2 class="title">
+                    Project <span>goals</span>
+                </h2>
+                <p class="content">
+                    The new modal had to correspond with Zilow's brand image and its high-performance standards. It also had to fit the existing app and be easy to use by the corporate customers.
+                </p>
+                <div class="project-list">
+                    <div class="project-item AnimationProjectDelay1">
+                        <div class="wrapper-icon">
+                            <div class="item-icon">
+                                <i class="fab fa-mix"></i>
+                            </div>
+                        </div>
+                        <p class="item-title">
+                            UI&UX Design
+                        </p>
+                        <p class="item-content">
+                            UX&UI design of the existing productm competitions analysis, desk research.
+                        </p>
+                    </div>
+                    <div class="project-item AnimationProjectDelay2">
+                        <div class="wrapper-icon">
+                            <div class="item-icon">
+                                <i class="fa fa-mosque"></i>
+                            </div>
+                        </div>
+                        <p class="item-title">
+                            UI&UX Design
+                        </p>
+                        <p class="item-content">
+                            UX&UI design of the existing productm competitions analysis, desk research.
+                        </p>
+                    </div>
+                    <div class="project-item AnimationProjectDelay3">
+                        <div class="wrapper-icon">
+                            <div class="item-icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                        </div>
+                        <p class="item-title">
+                            UI&UX Design
+                        </p>
+                        <p class="item-content">
+                            UX&UI design of the existing productm competitions analysis, desk research.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="more" class="section">
+            <div class="wrapper-list wrapper-container">
+                <div class="list-column one">
+                    <div class="list-item">
+                        <div class="wrapper-images">
+                            <img src="./img/4.jpg" alt="">
+                        </div>
+                        <span class="list-element">Real Estate</span>
+                        <p class="list-content">
+                            Americans believe home prices.
+                        </p>
+                        <a href="articles.html" class="list-more">
+                            <button>
+                                Read article
+                            </button>
+                            <span class="variant-icon">
+                                <i class="fa fa-angle-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="list-item AnimationListColumn4">
+                        <div class="wrapper-images">
+                            <img src="./img/5.jpg" alt="">
+                        </div>
+                        <span class="list-element">Real Estate</span>
+                        <p class="list-content">
+                            Americans believe home prices are going to increase over the next year in thier local market.
+                        </p>
+                        <a href="articles.html" class="list-more">
+                            <button>
+                                Read article
+                            </button>
+                            <span class="variant-icon">
+                                <i class="fa fa-angle-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="list-column two">
+                    <div class="list-item">
+                        <div class="wrapper-images">
+                            <img src="./img/6.jpg" alt="">
+                        </div>
+                        <span class="list-element">Real Estate</span>
+                        <p class="list-content">
+                            Americans believe home prices are going to increase over the next year in thier local market.
+                        </p>
+                        <a href="articles.html" class="list-more">
+                            <button>
+                                Read article
+                            </button>
+                            <span class="variant-icon">
+                                <i class="fa fa-angle-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="list-item AnimationListColumn5">
+                        <div class="wrapper-images">
+                            <img src="./img/7.jpg" alt="">
+                        </div>
+                        <span class="list-element">Real Estate</span>
+                        <p class="list-content">
+                            Americans believe home prices are going to increase over the next year in thier local market.
+                        </p>
+                        <a href="articles.html" class="list-more">
+                            <button>
+                                Read article
+                            </button>
+                            <span class="variant-icon">
+                                <i class="fa fa-angle-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="list-column three">
+                    <div class="list-item">
+                        <div class="wrapper-images">
+                            <img src="./img/8.jpg" alt="">
+                        </div>
+                        <span class="list-element">Real Estate</span>
+                        <p class="list-content">
+                            Americans believe home prices are going to increase over the next year in thier local market.
+                        </p>
+                        <a href="articles.html" class="list-more">
+                            <button>
+                                Read article
+                            </button>
+                            <span class="variant-icon">
+                                <i class="fa fa-angle-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="help   " class="section">
+            <div class="wrapper-notify wrapper-container">
+                <p class="notify-element">
+                    <span>
+                        Subcribe our newsletter
+                    </span>
+                </p>    
+                <h2 class="notify-title">
+                    Do you want to follow the updates?
+                </h2>
+                <p class="notify-content">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque saepe maxime possimus! Esse quia laborum dignissimos ratione. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque saepe maxime possimus! Esse quia laborum dignissimos ratione. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque saepe maxime possimus! Esse quia laborum dignissimos ratione.
+                </p>
+                <div class="notify-input">
+                    <input type="text" placeholder="I am looking for...">
+                    <button>
+                        Subcribe
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="section">
+            <div class="wrapper-footer wrapper-container2">
+                <div class="footer-left">
+                    <img src="./img/logo.png" alt="">
+                    <p class="footer-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quae velit qui suscipit ex unde! Consectetur aut deserunt sed beatae vitae! Ducimus nulla consequuntur commodi similique impedit magni minima nemo!Lorem aut deserunt sed beatae vitae! Ducimus nulla consequuntur commodi similique impedit magni minima nemo!</p>
+                    <p class="footer-end">All</p>
+                </div>
+                <div class="footer-right">
+                    <span class="follow-title">Follow us:</span>
+                    <ul class="footer-follow">
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                    </ul>
+                    <div class="footer-about">
+                        <div class="footer-child">
+                            <div class="footer-child-title">
+                                About
+                            </div>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Blog</li>
+                                <li>News</li>
+                                <li>Careers</li>
+                            </ul>
+                        </div>
+                        <div class="footer-child">
+                            <div class="footer-child-title">
+                                About
+                            </div>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Blog</li>
+                                <li>News</li>
+                                <li>Careers</li>
+                            </ul>
+                        </div>
+                        <div class="footer-child">
+                            <div class="footer-child-title">
+                                About
+                            </div>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Blog</li>
+                                <li>News</li>
+                                <li>Careers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="backToTop">
+        <button class="button-to-top" id="toTop">
+            <i class="fa fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/easings.min.js" integrity="sha512-SrKslwu6IjHEo/8mAOtkoUOT3MzHCEOFWktrC8BNtjPuBBYLYjg1y/Marat34uYfOfxDMLEwy8DLArWEVc2i+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js" integrity="sha512-pYyQWhzi2lV+RM4GmaUA56VPL48oLVvsHmP9tuQ8MaZMDHomVEDjXXnfSVKXayy+wLclKPte0KbsuVoFImtE7w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="./js/index.js"></script>
+
+    <script>
+        new fullpage('#fullPage', {
+            //options here
+            autoScrolling:true,
+            navigation: true,
+            anchors: [],
+            navigationTooltips: ['a', 'b', 'c'],
+            showActiveTooltip: false,
+            scrollingSpeed: 1000,
+            controlArrows: false,
+            scrollBar:true
+        });
+
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin: 20,
+                nav:false,
+                dots: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    800:{
+                        items:2
+                    },
+                    1100:{
+                        items:3
+                    }
+                }
+            });
+        });
+        $(document).ready(function(){
+            $('.owl-article').owlCarousel({
+                loop:true,
+                margin: 0,
+                nav:false,
+                dots: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:1
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

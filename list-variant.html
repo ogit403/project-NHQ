@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS BS4 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- main CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body id="style-2">
+    <header id="header">
+        <div class="wrapper-header wrapper-container">
+            <div class="header-left">
+                <a class="page-click" href="index.html">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header-right">
+                <ul class="navigation" id="mainNav">
+                    <li>
+                        <a class="page-click" href="#home" id="toTop1">Home</a>
+                        <div class="navigation-drop">
+                            <a href="">Humor + Information</a>
+                            <a href="">Research + Insight</a>
+                            <a href="">Offer Test</a>
+                        </div>
+                    </li>
+                    <li><a class="page-click" href="#offer">Offer</a>
+                        <div class="navigation-drop">
+                            <a href="">Humor + Information</a>
+                            <a href="">Research + Insight</a>
+                            <a href="">Research + Insight</a>
+                            <a href="">Offer Test</a>
+                        </div>
+                    </li>
+                    <li><a class="page-click" href="#variants">Variants</a></li>
+                    <li><a class="page-click" href="#articles">Articles</a></li>
+                    <li><a class="page-click" href="#goals">Goals</a></li>
+                    <li><a class="page-click" href="#more">More</a></li>
+                </ul>
+            </div>
+            <div class="header-right-1">
+                <button class="btn-header-right" id="header-btn">
+                    <div class="group-line">
+                        <div class="line-1"></div>
+                        <div class="line-2"></div>
+                        <div class="line-3"></div>
+                    </div>
+                </button>
+            </div>
+            <div class="dropdown-header">
+                <ul class="navigation-hidden" id="mainNav">
+                    <li><a class="page-click" href="#home" id="toTop1">Home</a></li>
+                    <li><a class="page-click" href="#offer">Offer</a></li>
+                    <li><a class="page-click" href="#variants">Variants</a></li>
+                    <li><a class="page-click" href="#articles">Articles</a></li>
+                    <li><a class="page-click" href="#goals">Goals</a></li>
+                    <li><a class="page-click" href="#more">More</a></li>
+                </ul>
+            </div>
+            <!-- <div class="dropdown">
+              <div class="dropdown-select">
+                <span class="dropdown-value"><i class="fa fa-cart-plus"></i></span>
+              </div>
+              <div class="dropdown-list">
+                <div class="dropdown-item">title</div>
+                <div class="dropdown-item">title</div>
+                <div class="dropdown-item">title</div>
+              </div>
+            </div> -->
+            <div class="wrapper-login">
+                <!-- <div class="header-shop">
+                    <button>
+                        <i class="fa fa-cart-plus"></i>
+                        <span>0</span>
+                    </button>
+                    <div class="header-shop-list">
+                        <table>
+                            <thead>
+                                <th>STT</th>
+                                <th>Name</th>
+                                <th>Day</th>
+                                <th>Price</th>
+                                <th></th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                <td>Hotel</td>
+                                <td>1</td>
+                                <td>$1650</td>
+                                <td>
+                                    <button>
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                    <button>
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                <td>Hotel</td>
+                                <td>1</td>
+                                <td>$1650</td>
+                                <td>
+                                    <button>
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                    <button>
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                <td>Hotel</td>
+                                <td>1</td>
+                                <td>$1650</td>
+                                <td>
+                                    <button>
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                    <button>
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div> -->
+                <div class="header-login">
+                    <a href="regist.html">
+                        Login
+                        <i class="fa fa-arrow-alt-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="fullPage">
+      
+       
+        <div id="variants" class="section s3 overflow-hidden">
+            <div class="wrapper-variant wrapper-container main-page">
+                <div class="variant-top">
+                    <div class="variant-left">
+                        <div class="wrapper-block">
+                            <div class="block"></div>
+                            <span class="variant-title">
+                                Kind of homes we offer
+                            </span>
+                        </div>
+                       
+                        <h2>Our Best <span>Variants</span></h2>
+                        <span class="variant-buy">
+                            <span>Buy</span>
+                            <span>Rent</span>
+                        </span>
+                    </div>
+                    <div class="variant-right">
+                        <p class="variant-content">
+                            <i></i>
+                            When you're ready for a change, we're ready to help. Whether you're buying, selling or renting, we can help you move forward.
+                        </p>
+                    </div>
+                </div>
+                <div class="variant-bottom">
+                    <div class="variant-list page">
+                        <div class="variant-item">
+                            <div class="images">
+                                <div class="wrapper-images">
+                                    <img src="./img/2.jpg" alt="">
+                                    <div class="top">
+                                        <span>Suitable for children</span>
+                                        <span>Pets friendly</span>
+                                    </div>
+                                    <div class="money">
+                                        $1650<span>/mon</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="title">
+                                    <span class="icon">
+                                        <i class="fa fa-map-marker-alt"></i>
+                                    </span>
+                                    <span class="address">
+                                        456A Grand St, Smoky Mountains, TN
+                                    </span>
+                                    <span class="view">
+                                        <span>
+                                            View home
+                                            <span class="view-icon">
+                                                <i class="fa fa-angle-right"></i>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="detail">
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-bed"></i>
+                                        </span>
+                                        <span class="room">2 bedroom</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-shower"></i>
+                                        </span>
+                                        <span class="room">2 baths</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-map"></i>
+                                        </span>
+                                        <span class="room">256 Sq.Ft.</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="variant-item">
+                            <div class="images">
+                                <div class="wrapper-images">
+                                    <img src="./img/2.jpg" alt="">
+                                    <div class="top">
+                                        <span>Suitable for children</span>
+                                        <span>Pets friendly</span>
+                                    </div>
+                                    <div class="money">
+                                        $1650<span>/mon</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="title">
+                                    <span class="icon">
+                                        <i class="fa fa-map-marker-alt"></i>
+                                    </span>
+                                    <span class="address">
+                                        456A Grand St, Smoky Mountains, TN
+                                    </span>
+                                    <span class="view">
+                                        <span>
+                                            View home
+                                            <span class="view-icon">
+                                                <i class="fa fa-angle-right"></i>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="detail">
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-bed"></i>
+                                        </span>
+                                        <span class="room">2 bedroom</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-shower"></i>
+                                        </span>
+                                        <span class="room">2 baths</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-map"></i>
+                                        </span>
+                                        <span class="room">256 Sq.Ft.</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="variant-item">
+                            <div class="images">
+                                <div class="wrapper-images">
+                                    <img src="./img/2.jpg" alt="">
+                                    <div class="top">
+                                        <span>Suitable for children</span>
+                                        <span>Pets friendly</span>
+                                    </div>
+                                    <div class="money">
+                                        $1650<span>/mon</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="title">
+                                    <span class="icon">
+                                        <i class="fa fa-map-marker-alt"></i>
+                                    </span>
+                                    <span class="address">
+                                        456A Grand St, Smoky Mountains, TN
+                                    </span>
+                                    <span class="view">
+                                        <span>
+                                            View home
+                                            <span class="view-icon">
+                                                <i class="fa fa-angle-right"></i>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="detail">
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-bed"></i>
+                                        </span>
+                                        <span class="room">2 bedroom</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-shower"></i>
+                                        </span>
+                                        <span class="room">2 baths</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-map"></i>
+                                        </span>
+                                        <span class="room">256 Sq.Ft.</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="variant-item">
+                            <div class="images">
+                                <div class="wrapper-images">
+                                    <img src="./img/2.jpg" alt="">
+                                    <div class="top">
+                                        <span>Suitable for children</span>
+                                        <span>Pets friendly</span>
+                                    </div>
+                                    <div class="money">
+                                        $1650<span>/mon</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="title">
+                                    <span class="icon">
+                                        <i class="fa fa-map-marker-alt"></i>
+                                    </span>
+                                    <span class="address">
+                                        456A Grand St, Smoky Mountains, TN
+                                    </span>
+                                    <span class="view">
+                                        <span>
+                                            View home
+                                            <span class="view-icon">
+                                                <i class="fa fa-angle-right"></i>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="detail">
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-bed"></i>
+                                        </span>
+                                        <span class="room">2 bedroom</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-shower"></i>
+                                        </span>
+                                        <span class="room">2 baths</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-map"></i>
+                                        </span>
+                                        <span class="room">256 Sq.Ft.</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="variant-item">
+                            <div class="images">
+                                <div class="wrapper-images">
+                                    <img src="./img/2.jpg" alt="">
+                                    <div class="top">
+                                        <span>Suitable for children</span>
+                                        <span>Pets friendly</span>
+                                    </div>
+                                    <div class="money">
+                                        $1650<span>/mon</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="title">
+                                    <span class="icon">
+                                        <i class="fa fa-map-marker-alt"></i>
+                                    </span>
+                                    <span class="address">
+                                        456A Grand St, Smoky Mountains, TN
+                                    </span>
+                                    <span class="view">
+                                        <span>
+                                            View home
+                                            <span class="view-icon">
+                                                <i class="fa fa-angle-right"></i>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="detail">
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-bed"></i>
+                                        </span>
+                                        <span class="room">2 bedroom</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-shower"></i>
+                                        </span>
+                                        <span class="room">2 baths</span>
+                                    </span>
+                                    <span>
+                                        <span class="icon">
+                                            <i class="fa fa-map"></i>
+                                        </span>
+                                        <span class="room">256 Sq.Ft.</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="wrapper-footer wrapper-container2">
+                <div class="footer-left">
+                    <img src="./img/logo.png" alt="">
+                    <p class="footer-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quae velit qui suscipit ex unde! Consectetur aut deserunt sed beatae vitae! Ducimus nulla consequuntur commodi similique impedit magni minima nemo!Lorem aut deserunt sed beatae vitae! Ducimus nulla consequuntur commodi similique impedit magni minima nemo!</p>
+                    <p class="footer-end">All</p>
+                </div>
+                <div class="footer-right">
+                    <span class="follow-title">Follow us:</span>
+                    <ul class="footer-follow">
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                    </ul>
+                    <div class="footer-about">
+                        <div class="footer-child">
+                            <div class="footer-child-title">
+                                About
+                            </div>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Blog</li>
+                                <li>News</li>
+                                <li>Careers</li>
+                            </ul>
+                        </div>
+                        <div class="footer-child">
+                            <div class="footer-child-title">
+                                About
+                            </div>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Blog</li>
+                                <li>News</li>
+                                <li>Careers</li>
+                            </ul>
+                        </div>
+                        <div class="footer-child">
+                            <div class="footer-child-title">
+                                About
+                            </div>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Blog</li>
+                                <li>News</li>
+                                <li>Careers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/easings.min.js" integrity="sha512-SrKslwu6IjHEo/8mAOtkoUOT3MzHCEOFWktrC8BNtjPuBBYLYjg1y/Marat34uYfOfxDMLEwy8DLArWEVc2i+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js" integrity="sha512-pYyQWhzi2lV+RM4GmaUA56VPL48oLVvsHmP9tuQ8MaZMDHomVEDjXXnfSVKXayy+wLclKPte0KbsuVoFImtE7w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="./js/index.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin: 20,
+                nav:false,
+                dots: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items:3
+                    }
+                }
+            });
+        });
+        $(document).ready(function(){
+            $('.owl-article').owlCarousel({
+                loop:true,
+                margin: 0,
+                nav:false,
+                dots: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:1
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

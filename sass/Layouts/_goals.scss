@@ -1,0 +1,108 @@
+
+.rotate-project-animation {
+    animation: AniRotateMain 1.5s linear forwards;
+}
+.fadein-project-animation {
+    animation: FadeInMainDelay 2.2s linear forwards;
+}
+.fadein2-project-animation {
+    animation: FadeInMainDelay 2.9s linear forwards;
+}
+
+.wrapper-project {
+    .icon {
+        text-align: center;
+        span {
+            padding: 5px 10px;
+            font-size: 12px;
+            border-radius: 5px;
+            color: #1d8b1d;
+            position: relative;
+            font-weight: 600;
+            margin-bottom: 30px;
+            display: inline-block;
+            opacity: 0;
+            // animation: AniRotateMain 2s linear forwards;
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                border-radius: inherit;
+                background-color: currentColor;
+                opacity: 0.1;
+            }
+        }
+    }
+    .title {  
+        text-align: center;
+        color: #3A598C;
+        font-weight: 700;
+        padding: 10px 0 20px;
+        font-size: 45px;
+        opacity: 0;
+        // animation: FadeInMainDelay 1.5s linear forwards;
+        span {
+            color: #6CA1F8;
+        }
+    }
+    .content {
+        text-align: center;
+        line-height: 26px;
+        font-weight: 500;
+        padding: 0 30%;
+        opacity: 0;
+        // animation: FadeInMainDelay 2.2s linear forwards;
+    }
+    .project-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        .project-item {
+            width: 100%;
+            .wrapper-icon {
+                display: flex;
+                justify-content: center;
+            }
+            .item-icon {
+                text-align: center;
+                width: 80px;
+                height: 80px;
+                font-size: 30px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #e74c3c;
+                position: relative;
+                margin-bottom: 30px;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    border-radius: inherit;
+                    background-color: currentColor;
+                    opacity: 0.1;
+                }
+                
+            }   
+            .item-title {
+                text-align: center;
+                color: #3A598C;
+                font-weight: 700;
+                font-size: 20px;
+            }
+            .item-content {
+                text-align: center;
+                line-height: 24px;
+                padding: 0 60px;
+            }
+        }
+    }
+}
