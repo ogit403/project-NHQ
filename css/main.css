@@ -3420,4 +3420,42 @@ header .dropdown-header ul li a.active:after {
 .backToTop button:focus {
   outline: none;
 }
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+  display: block !important;
+}
+
+.owl-prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.owl-prev span {
+  display: inline-block;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  font-size: 18px;
+}
+
+.owl-next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+.owl-next span {
+  display: inline-block;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  font-size: 18px;
+}
 /*# sourceMappingURL=main.css.map */

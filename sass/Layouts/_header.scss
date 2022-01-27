@@ -2521,3 +2521,35 @@ header {
         }
     }
 }
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    span {
+        display: inline-block;
+        background-color: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        font-size: 18px;
+    }
+}
+.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+    span {
+        display: inline-block;
+        background-color: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        font-size: 18px;
+    }
+}
