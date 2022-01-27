@@ -1758,6 +1758,10 @@ header .dropdown-header ul li a.active:after {
   height: 100%;
 }
 
+.wrapper-article.page-article .article-title {
+  opacity: 1 !important;
+}
+
 .wrapper-article .article-top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1856,6 +1860,10 @@ header .dropdown-header ul li a.active:after {
   margin-top: 80px;
 }
 
+.wrapper-article .article-bottom .article-list.page .article-title {
+  opacity: 1 !important;
+}
+
 .wrapper-article .article-bottom .article-list.page img {
   border-radius: 50px;
 }
@@ -1874,6 +1882,10 @@ header .dropdown-header ul li a.active:after {
   height: 1px;
   width: 80%;
   background: #686c733b;
+}
+
+.wrapper-article .article-bottom .article-list.page .article-content {
+  opacity: 1 !important;
 }
 
 .wrapper-article .article-bottom .article-list .article-item {
@@ -2932,7 +2944,7 @@ header .dropdown-header ul li a.active:after {
   cursor: pointer;
 }
 
-.form-login .required {
+.required {
   color: red;
   margin-left: 5px;
 }

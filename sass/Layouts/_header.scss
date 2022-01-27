@@ -1116,6 +1116,11 @@ header {
 .wrapper-article {
     padding: 100px 70px;
     height: 100%;
+    &.page-article {
+        .article-title {
+            opacity: 1 !important;
+        }
+    }
     .article-top {
         display: flex;
         justify-content: space-between;
@@ -1204,6 +1209,9 @@ header {
                 .article-item:not(:first-child) {
                     margin-top: 80px;
                 }
+                .article-title {
+                    opacity: 1 !important;
+                }
                 img {
                     border-radius: 50px;
                 }
@@ -1220,6 +1228,10 @@ header {
                         background: #686c733b;
                     }
                 }
+                .article-content {
+                    opacity: 1 !important;
+                }
+                
             }
             // height: 100%;
             margin-top: 50px;
@@ -1902,14 +1914,14 @@ header {
             cursor: pointer;
         }
     }
-    .required {
-        color: red;
-        margin-left: 5px;
-    }
+    
 }
 
 
-
+.required {
+    color: red;
+    margin-left: 5px;
+}
 
 .article-main {
     img {
