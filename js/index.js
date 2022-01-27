@@ -2,7 +2,7 @@ $(window).scroll(function() {
     var scrollDistance = $(window).scrollTop();
     $('.section').each(function(i) {
             if ($(this).position().top <= scrollDistance) {
-                console.log('da vao', i)
+                // console.log('da vao', i)
                 $('.navigation a.active').removeClass('active');
                 $('.navigation .page-click').eq(i).addClass('active');
             }
